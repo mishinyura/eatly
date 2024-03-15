@@ -96,7 +96,8 @@
     --hesh-bg-yellow: #DAA31A;
     --hesh-bg-green: #309D5B;
     --status-order-reject: #F1534E;
-    --status-order-main:
+    --status-order-approved: #309d5c;
+    --status-order-main: #323142;
 }
 
 ul {
@@ -116,4 +117,8 @@ p {
 a {
     text-decoration: none;
     color: black;
+}
+
+.mark-text{
+    color: var(--purpure);
 }
