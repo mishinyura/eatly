@@ -1,81 +1,145 @@
 @font-face {
-    font-family: 'Poppins';
-    font-weight: 400;
+    font-family: 'Inter';
+    src: url('../fonts/inter-bold.eot');
+    src: url('../fonts/inter-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/inter-bold.woff2') format('woff2'),
+         url('../fonts/inter-bold.woff') format('woff'),
+         url('../fonts/inter-bold.ttf') format('truetype');
+    font-weight: 700;
     font-style: normal;
-    src: url('../fonts/Poppins-Regular.woff2') format('.woff2'), 
-        url('../fonts/Poppins-Regular.woff') format('.woff');
+    font-display: swap;
 }
 
-@font-face {
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-style: normal;
-    src: url('../fonts/Poppins-Medium.woff2') format('.woff2'), 
-        url('../fonts/Poppins-Medium.woff') format('.woff');
-}
 
-@font-face {
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-style: normal;
-    src: url('../fonts/Poppins-SemiBold.woff2') format('.woff2'), 
-        url('../fonts/Poppins-SemiBold.woff') format('.woff');
-}
 
-@font-face {
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-style: normal;
-    src: url('../fonts/Poppins-ExtraBold.woff2') format('.woff2'), 
-        url('../fonts/Poppins-ExtraBold.woff') format('.woff');
-}
-
-@font-face {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-style: italic;
-    src: url('../fonts/Poppins-Italic.woff2') format('.woff2'), 
-        url('../fonts/Poppins-Italic.woff') format('.woff');
-}
 
 @font-face {
     font-family: 'Inter';
+    src: url('../fonts/inter-medium.eot');
+    src: url('../fonts/inter-medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/inter-medium.woff2') format('woff2'),
+         url('../fonts/inter-medium.woff') format('woff'),
+         url('../fonts/inter-medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
-    src: url('../fonts/Inter-Medium.woff2') format('.woff2'), 
-        url('../fonts/Inter-Medium.woff') format('.woff');
+    font-display: swap;
 }
 
-@font-face {
-    font-family: 'Inter';
-    font-weight: 700;
-    font-style: normal;
-    src: url('../fonts/Inter-Bold.woff2') format('.woff2'), 
-        url('../fonts/Inter-Bold.woff') format('.woff');
-}
+
+
 
 @font-face {
     font-family: 'Manrope';
+    src: url('../fonts/manrope-bold.eot');
+    src: url('../fonts/manrope-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/manrope-bold.woff2') format('woff2'),
+         url('../fonts/manrope-bold.woff') format('woff'),
+         url('../fonts/manrope-bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/manrope-regular.eot');
+    src: url('../fonts/manrope-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/manrope-regular.woff2') format('woff2'),
+         url('../fonts/manrope-regular.woff') format('woff'),
+         url('../fonts/manrope-regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
-    src: url('../fonts/Manrope-Regular.woff2') format('.woff2'), 
-        url('../fonts/Manrope-Regular.woff') format('.woff');
+    font-display: swap;
 }
 
-@font-face {
-    font-family: 'Manrope';
-    font-weight: 700;
-    font-style: normal;
-    src: url('../fonts/Manrope-Bold.woff2') format('.woff2'), 
-        url('../fonts/Manrope-Bold.woff') format('.woff');
-}
+
+
 
 @font-face {
     font-family: 'Public sans';
+    src: url('../fonts/publicsans-bold.eot');
+    src: url('../fonts/publicsans-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/publicsans-bold.woff2') format('woff2'),
+         url('../fonts/publicsans-bold.woff') format('woff'),
+         url('../fonts/publicsans-bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
-    src: url('../fonts/PublicSans-Bold.woff2') format('.woff2'), 
-        url('../fonts/PublicSans-Bold.woff') format('.woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins-extrabold.eot');
+    src: url('../fonts/poppins-extrabold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-extrabold.woff2') format('woff2'),
+         url('../fonts/poppins-extrabold.woff') format('woff'),
+         url('../fonts/poppins-extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins-italic.eot');
+    src: url('../fonts/poppins-italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-italic.woff2') format('woff2'),
+         url('../fonts/poppins-italic.woff') format('woff'),
+         url('../fonts/poppins-italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins-medium.eot');
+    src: url('../fonts/poppins-medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-medium.woff2') format('woff2'),
+         url('../fonts/poppins-medium.woff') format('woff'),
+         url('../fonts/poppins-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins-regular.eot');
+    src: url('../fonts/poppins-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-regular.woff2') format('woff2'),
+         url('../fonts/poppins-regular.woff') format('woff'),
+         url('../fonts/poppins-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins-semibold.eot');
+    src: url('../fonts/poppins-semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-semibold.woff2') format('woff2'),
+         url('../fonts/poppins-semibold.woff') format('woff'),
+         url('../fonts/poppins-semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
 }
 
 
@@ -119,6 +183,68 @@ a {
     color: black;
 }
 
+button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
 .mark-text{
     color: var(--purpure);
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: auto;
+    padding: 30px;
+}
+
+.header__nav{
+    flex-grow: 1;
+}
+
+.header__menu{
+    display: flex;
+    align-items: center;
+}
+
+.header__link{
+    display: inline-block;
+    padding: 5px;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+}
+
+.header__control{
+    justify-items: flex-end;
+}
+
+.header__btn_singup{
+    padding: 17px 26px;
+    border-radius: 17px;
+    background-color: var(--purpure);
+    color: var(--white);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+}
+
+.header__btn_login{
+    padding: 17px 26px;
+    border-radius: 17px;
+    color: var(--text-color-top-menu);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
 }
